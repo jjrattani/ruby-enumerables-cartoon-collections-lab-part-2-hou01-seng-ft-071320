@@ -25,7 +25,7 @@ def long_planeteer_calls(planeteer_calls)
   #for each string, count the # of letters
   #if letters are greater than 4, then return true 
   planeteer_calls.each do |four_letters_or_more|
-    if four_letters_or_more.count >= 4
+    if four_letters_or_more.count > 4
       return true
     end
   end
