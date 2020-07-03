@@ -28,7 +28,8 @@ def long_planeteer_calls(planeteer_calls)
     if four_letters_or_more.count > 4
       return true
     end
-    return false
+  end
+  return false
 end
 
 def find_valid_calls(planeteer_calls)
